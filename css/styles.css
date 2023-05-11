@@ -64,7 +64,7 @@ body {
     color: var(--interactive-object-active-color);
 }
 
-.buttons .button, .button{
+.buttons .button, .button {
     background-color: var(--button-background-color);
     color: var(--headings-text-color);
 }
@@ -73,4 +73,28 @@ body {
     background-color: var(--interactive-object-active-color);
     color: var(--full-white-color);
 
+}
+
+.title-text {
+    color: var(--headings-text-color)
+}
+
+.our-strengths-header {
+    color: var(--headings-text-color)
+}
+
+.what-do-we-do {
+    color: var(--headings-text-color)
+}
+
+.our-team {
+    color: var(--headings-text-color)
+}
+
+.our-team-member {
+    color: var(--headings-text-color)
+}
+
+.portfolio-header {
+    color: var(--headings-text-color)
 }
