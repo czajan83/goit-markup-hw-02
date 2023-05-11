@@ -1,22 +1,76 @@
+:root {
+    --dominant-text-color: rgba(117, 117, 117, 100);
+    --headings-text-color: rgba(33, 33, 33, 100);
+    --background-color: rgba(26, 26, 26, 100);
+    --interactive-object-active-color: rgba(12, 105, 222, 100);
+    --footer-link-color: rgba(255, 255, 255, 60);
+    --full-black-color: rgba(0, 0, 0, 100);
+    --full-white-color: rgba(255, 255, 255, 100);
+    --button-background-color: rgba(245, 244, 250, 100);
+}
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--dominant-text-color);
 }
-.alert {
-    font-size: 24px; 
-    font-weight:500;
+
+.link-home {
+    font-family: 'Raleway', sans-serif;
 }
-.success {
-    color: green;
+
+.link-home-blue-part {
+    color: var(--interactive-object-active-color);
 }
-.warning {
-    color: yellow;
+
+.link-home-black-part {
+    color: var(--full-black-color);
 }
-.error {
-    color: red;
+
+.navigate-link {
+    color: var(--headings-text-color);
 }
-.terminated {
-    color: blue;
+
+.navigate-link:hover, .navigate-link:focus {
+    color: var(--interactive-object-active-color);
 }
-.lorem h1 {
-    font-size: 28px;
+
+.contact-header .contact-header-link { 
+    color: var(--dominant-text-color);
+}
+
+.contact-header .contact-header-link:hover, 
+.contact-header .contact-header-link:focus {
+
+    color: var(--interactive-object-active-color);
+}
+
+.contact-footer .contact-footer-link {
+    color: var(--footer-link-color);
+}
+
+.contact-footer .contact-footer-link:hover,
+.contact-footer .contact-footer-link:focus {
+
+    color: var(--interactive-object-active-color);
+}
+
+.contact-footer .contact-footer-address {
+    color: var(--full-white-color);
+}
+
+.contact-footer .contact-footer-address:hover,
+.contact-footer .contact-footer-address:focus {
+
+    color: var(--interactive-object-active-color);
+}
+
+.buttons .button, .button{
+    background-color: var(--button-background-color);
+    color: var(--headings-text-color);
+}
+
+.buttons .button:hover, .buttons .button:focus, .button:hover, .button:focus {
+    background-color: var(--interactive-object-active-color);
+    color: var(--full-white-color);
+
 }
